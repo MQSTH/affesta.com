@@ -53,6 +53,7 @@
 
       .navbar.scrolled {
         background: rgb(255, 255, 255);
+        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
         padding: 17px 0;
       }
 
@@ -88,9 +89,7 @@
       }
 
       .navbar-menu li a.scrolled {
-        color: var(
-          --dark-gray
-        ); /* Atur sesuai warna yang kamu inginkan saat discroll */
+        color: var(--dark-gray);
       }
 
       .navbar-menu li a:hover {
@@ -386,7 +385,7 @@
       }
 
       .registration-container {
-        margin: 0 ;
+        margin: 0;
         position: relative;
         z-index: 2;
       }
@@ -512,35 +511,39 @@
       .footer-section {
         background-color: var(--dark-gray);
         padding: 60px 0 60px;
-        text-align: center;
+        text-align: left;
       }
 
       .footer-title {
         color: white;
-        font-size: 1.5rem;
+        font-size: 1.8rem;
         margin-bottom: 30px;
         font-weight: 600;
       }
 
       .social-links {
         display: flex;
-        justify-content: center;
-        gap: 25px;
+        flex-direction: column;
+        gap: 20px;
         margin-bottom: 30px;
-        flex-wrap: wrap;
+        align-items: flex-start;
       }
 
       .social-link {
-        display: inline-block;
+        display: flex;
+        align-items: center;
+        gap: 15px;
         transition: all 0.3s ease;
         padding: 12px;
         border-radius: 10px;
         backdrop-filter: blur(10px);
-        color: white; /* default icon color */
+        color: white;
+        text-decoration: none;
+        width: fit-content;
       }
 
       .social-link:hover {
-        transform: translateY(-5px) scale(1.1);
+        transform: translateY(-5px) scale(1.05);
       }
 
       /* Hover color + drop shadow for each platform */
@@ -549,23 +552,24 @@
         filter: drop-shadow(0 0 6px var(--tiktok-color));
       }
 
-      .social-link.youtube:hover {
-        color: var(--youtube-color);
-        filter: drop-shadow(0 0 6px var(--youtube-color));
-      }
-
       .social-link.instagram:hover {
         color: var(--instagram-color);
         filter: drop-shadow(0 0 6px var(--instagram-color));
       }
 
       /* Icon style: use currentColor so color comes from parent */
-
       .social-icon {
         width: 28px;
         height: 28px;
         fill: currentColor;
         transition: all 0.3s ease;
+        flex-shrink: 0;
+      }
+
+      .social-text {
+        font-size: 1rem;
+        font-weight: 500;
+        letter-spacing: 0.5px;
       }
 
       .footer-text {
@@ -576,6 +580,7 @@
         padding-top: 20px;
         margin-top: 20px;
         line-height: 1.5;
+        text-align: center;
       }
 
       .footer-text p {
@@ -601,6 +606,21 @@
 
       .hero-content {
         animation: fadeInUp 1s ease-out;
+      }
+
+      /* Responsive */
+      @media (max-width: 768px) {
+        .social-links {
+          align-items: center;
+        }
+
+        .footer-section {
+          text-align: center;
+        }
+
+        .footer-title {
+          text-align: center;
+        }
       }
     </style>
   </head>
@@ -680,7 +700,7 @@
 
         <div class="feature-card">
           <div class="feature-image">
-            <img src="https://raw.githubusercontent.com/MQSTH/affesta.com/refs/heads/main/3_20250606_234838_0001.png" />
+            <img src="https://raw.githubusercontent.com/MQSTH/affesta.com/refs/heads/main/3_20250606_234838_0001.png" alt="Filosofi Warna" />
           </div>
           <div class="feature-content">
             <h3>Warna ungu pada latar belakang & huruf</h3>
@@ -808,20 +828,19 @@
       <div class="container">
         <h3 class="footer-title">Follow Us</h3>
         <div class="social-links">
-          <a href="#" target="_blank" class="social-link tiktok">
+          <a
+            href="https://www.tiktok.com/@affesta.id"
+            target="_blank"
+            class="social-link tiktok"
+          >
             <svg class="social-icon" viewbox="0 0 24 24" fill="currentColor">
               <path
                 d="M19.321 5.562a5.124 5.124 0 0 1-.443-.258 6.228 6.228 0 0 1-1.137-.966c-.849-.849-1.532-1.849-1.532-3.338h-2.8v11.543c0 1.93-1.57 3.5-3.5 3.5s-3.5-1.57-3.5-3.5 1.57-3.5 3.5-3.5c.343 0 .677.05 1 .143V6.365c-.321-.02-.646-.031-.975-.031-3.866 0-7 3.134-7 7s3.134 7 7 7 7-3.134 7-7V8.832a9.884 9.884 0 0 0 4.657 1.168v-2.8c-1.14 0-2.233-.35-3.179-.896z"
               />
             </svg>
+            <span class="social-text">@affesta.id</span>
           </a>
-          <a href="#" target="_blank" class="social-link youtube">
-            <svg class="social-icon" viewbox="0 0 24 24" fill="currentColor">
-              <path
-                d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"
-              />
-            </svg>
-          </a>
+
           <a
             href="https://www.instagram.com/affesta.id"
             target="_blank"
@@ -832,6 +851,7 @@
                 d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"
               />
             </svg>
+            <span class="social-text">@affesta.id</span>
           </a>
         </div>
         <div class="footer-text">
@@ -840,44 +860,57 @@
         </div>
       </div>
     </footer>
-<script>
-	// <![CDATA[  <-- For SVG support
-	if ('WebSocket' in window) {
-		(function () {
-			function refreshCSS() {
-				var sheets = [].slice.call(document.getElementsByTagName("link"));
-				var head = document.getElementsByTagName("head")[0];
-				for (var i = 0; i < sheets.length; ++i) {
-					var elem = sheets[i];
-					var parent = elem.parentElement || head;
-					parent.removeChild(elem);
-					var rel = elem.rel;
-					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
-						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
-						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
-					}
-					parent.appendChild(elem);
-				}
-			}
-			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
-			var address = protocol + window.location.host + window.location.pathname + '/ws';
-			var socket = new WebSocket(address);
-			socket.onmessage = function (msg) {
-				if (msg.data == 'reload') window.location.reload();
-				else if (msg.data == 'refreshcss') refreshCSS();
-			};
-			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
-				console.log('Live reload enabled.');
-				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
-			}
-		})();
-	}
-	else {
-		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
-	}
-	// ]]>
-</script>
-</body>
+    <script>
+      if ("WebSocket" in window) {
+        (function () {
+          function refreshCSS() {
+            var sheets = [].slice.call(document.getElementsByTagName("link"));
+            var head = document.getElementsByTagName("head")[0];
+            for (var i = 0; i < sheets.length; ++i) {
+              var elem = sheets[i];
+              var parent = elem.parentElement || head;
+              parent.removeChild(elem);
+              var rel = elem.rel;
+              if (
+                (elem.href && typeof rel != "string") ||
+                rel.length == 0 ||
+                rel.toLowerCase() == "stylesheet"
+              ) {
+                var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, "");
+                elem.href =
+                  url +
+                  (url.indexOf("?") >= 0 ? "&" : "?") +
+                  "_cacheOverride=" +
+                  new Date().valueOf();
+              }
+              parent.appendChild(elem);
+            }
+          }
+          var protocol =
+            window.location.protocol === "http:" ? "ws://" : "wss://";
+          var address =
+            protocol + window.location.host + window.location.pathname + "/ws";
+          var socket = new WebSocket(address);
+          socket.onmessage = function (msg) {
+            if (msg.data == "reload") window.location.reload();
+            else if (msg.data == "refreshcss") refreshCSS();
+          };
+          if (
+            sessionStorage &&
+            !sessionStorage.getItem("IsThisFirstTime_Log_From_LiveServer")
+          ) {
+            console.log("Live reload enabled.");
+            sessionStorage.setItem("IsThisFirstTime_Log_From_LiveServer", true);
+          }
+        })();
+      } else {
+        console.error(
+          "Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading."
+        );
+      }
+      // ]]>
+    </script>
+  </body>
   <script>
     function updateCountdown() {
       const targetDate = new Date("2026-05-01T08:00:00+07:00").getTime();
@@ -929,7 +962,7 @@
       const navbar = document.getElementById("navbar");
       const navLinks = document.querySelectorAll(".navbar-menu li a");
 
-      if (window.scrollY > 450) {
+      if (window.scrollY > 460) {
         navbar.classList.add("scrolled");
         navLinks.forEach((link) => {
           link.classList.add("scrolled");
@@ -972,7 +1005,7 @@
 
       // Contact numbers untuk setiap jenis lomba
       const contactNumbers = {
-        "Ratoe Jaroh": "6281234567890",
+        "Ratoe Jaroh": "6282118225264",
         "Hadroh Banjari": "6289876543210",
         "Scout Skill Competition (SMP)": "6281122334455",
         "Scout Skill Competition (SMA)": "6285566778899",
@@ -996,14 +1029,9 @@
         const contactNumber = contactNumbers[jenisLomba];
 
         // Buat pesan WhatsApp
-        const message = `Halo! Saya ingin mendaftar AFFESTA Vol. 1
+        const message = `Halo kak 👋 Perkenalkan, aku ${namaPeserta}. Dari ${asalSekolah}. Aku tertarik nih kak sama lombanya, yaitu *${jenisLomba}*! 😄
 
-*Data Peserta:*
-Nama: ${namaPeserta}
-Asal Sekolah: ${asalSekolah}
-Jenis Lomba: ${jenisLomba}
-
-Mohon informasi lebih lanjut untuk pendaftaran. Terima kasih!`;
+Boleh minta info lebih lanjut soal pendaftarannya ya kak? Makasih banyak! 🙏`;
 
         // Buat URL WhatsApp
         const whatsappUrl = `https://wa.me/${contactNumber}?text=${encodeURIComponent(
