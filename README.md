@@ -2,7 +2,7 @@
 ### Al Falah Festival - Official Website
 
 <p align="center">
-  <img src="[https://via.placeholder.com/400x200/AA00F9/FFFFFF?text=AFFESTA+VOL.1](https://raw.githubusercontent.com/MQSTH/affesta.com/refs/heads/main/style/img/logo/lg_n_bg.png)" alt="AFFESTA Logo" width="400">
+  <img src="https://raw.githubusercontent.com/MQSTH/affesta.com/refs/heads/main/style/img/logo/lg_n_bg.png" alt="AFFESTA Logo" width="400">
 </p>
 
 <p align="center">
@@ -269,4 +269,66 @@ function updateCountdown() {
 
 ### Static Hosting Platforms
 - **Netlify**: Drag & drop deployment
-- **Vercel**: Git-b
+- **Vercel**: Git-based deployment
+- **GitHub Pages**: Free hosting for repositories
+- **Firebase Hosting**: Google Cloud integration
+
+### Traditional Web Servers
+- Apache with mod_rewrite
+- Nginx with proper MIME types
+- Any PHP/Node.js hosting environment
+
+---
+
+## Future Enhancements
+
+### Phase 2 Features
+- Backend integration for form processing
+- User registration and authentication system
+- Content Management System (CMS)
+- Multi-language support (Indonesian/English)
+
+### Phase 3 Features
+- Progressive Web App (PWA) capabilities
+- Push notifications for event updates
+- Real-time participant leaderboards
+- Mobile app development
+
+---
+
+## Contributing
+
+### Development Guidelines
+1. Maintain semantic HTML structure
+2. Follow BEM methodology for CSS classes
+3. Use ES6+ features consistently
+4. Ensure accessibility compliance
+5. Test on multiple devices and browsers
+
+### Code Standards
+- Use 2-space indentation
+- Comment complex functionality
+- Optimize images before adding
+- Validate HTML/CSS before committing
+
+---
+
+## License & Copyright
+
+```
+© 2025 gigimerah
+All rights reserved.
+
+This website is developed for AFFESTA VOL. 1
+Organized by Ikatan Pelajar Madrasah Al Falah (IPMA)
+```
+
+---
+
+## Contact Information
+
+For technical support or website-related inquiries, please contact the respective competition coordinators listed on the official website.
+
+**Website Developer**: gigimerah  
+**Event Organizer**: IPMA Komisariat Aliyah  
+**Event Date**: September 26, 2025
