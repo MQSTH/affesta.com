@@ -1,230 +1,230 @@
 # AFFESTA VOL. 1
-### Al Falah Festival - Official Website
+### Al Falah Festival - Website Resmi
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/MQSTH/affesta.com/refs/heads/main/style/img/logo/lg_n_bg.png" alt="AFFESTA Logo" width="400">
+  <img src="https://raw.githubusercontent.com/MQSTH/affesta.com/refs/heads/main/style/img/logo/lg_n_bg.png" alt="Logo AFFESTA" width="400">
 </p>
 
 <p align="center">
-  <strong>Åšaktisamyogah</strong> - Unification of spiritual energy and inner strength
+  <strong>Åšaktisamyogah</strong> - Penyatuan energi spiritual dan kekuatan batin
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Event%20Date-September%2026,%202025-purple?style=flat-square" alt="Event Date">
-  <img src="https://img.shields.io/badge/Tech-HTML5%20|%20CSS3%20|%20JavaScript-orange?style=flat-square" alt="Technology Stack">
-  <img src="https://img.shields.io/badge/Responsive-Mobile%20First-green?style=flat-square" alt="Responsive Design">
+  <img src="https://img.shields.io/badge/Tanggal%20Acara-26%20September%202025-purple?style=flat-square" alt="Tanggal Acara">
+  <img src="https://img.shields.io/badge/Teknologi-HTML5%20|%20CSS3%20|%20JavaScript-orange?style=flat-square" alt="Stack Teknologi">
+  <img src="https://img.shields.io/badge/Responsif-Mobile%20First-green?style=flat-square" alt="Desain Responsif">
 </p>
 
 ---
 
-## About AFFESTA
+## Tentang AFFESTA
 
-AFFESTA (Al Falah Festival) is an innovative annual event organized by **Ikatan Pelajar Madrasah Al Falah (IPMA) Komisariat Aliyah**, evolving from the 7-year running ASA (Al Falah Sport and Art) program. This festival focuses specifically on **skills and arts competitions**, bringing together students from various schools in a celebration of creativity and talent.
+AFFESTA (Al Falah Festival) adalah acara tahunan inovatif yang diselenggarakan oleh **Ikatan Pelajar Madrasah Al Falah (IPMA) Komisariat Aliyah**, yang merupakan evolusi dari program ASA (Al Falah Sport and Art) yang telah berjalan selama 7 tahun. Festival ini fokus khusus pada **kompetisi keterampilan dan seni**, mempertemukan siswa dari berbagai sekolah dalam perayaan kreativitas dan bakat.
 
-The Sanskrit theme **"Åšaktisamyogah"** represents the unification of spiritual energy between organizers and participants, symbolizing the collective strength that emerges when diverse communities come together.
-
----
-
-## Live Preview
-
-**Event Countdown**: September 26, 2025 at 08:00 WIB
-
-```
-Days  Hours  Minutes  Seconds
- 018    14      32       45
-```
+Tema Sansekerta **"Åšaktisamyogah"** melambangkan penyatuan energi spiritual antara panitia dan peserta, menggambarkan kekuatan kolektif yang muncul ketika komunitas yang beragam bersatu.
 
 ---
 
-## Competition Categories
+## Pratinjau Langsung
 
-| Competition | Level | Registration |
-|-------------|--------|--------------|
-| **Ratoh Jaroe** | SMP & SMA | Open |
-| **Hadroh Banjari** | All Levels | Open |
-| **Scout Skill Competition** | SMP & SMA | Open |
+**Hitung Mundur Acara**: 26 September 2025 pukul 08:00 WIB
+
+```
+Hari  Jam  Menit  Detik
+ 018   14    32     45
+```
 
 ---
 
-## Technical Overview
+## Kategori Lomba
 
-### Architecture
-```
-Frontend-Only Application
-├── Pure HTML5 (Semantic markup)
-├── Modern CSS3 (Grid, Flexbox, Custom Properties)
-└── Vanilla JavaScript (ES6+, No frameworks)
-```
-
-### Key Features
-
-**Responsive Design System**
-- Mobile-first approach with 4 breakpoints
-- Touch-optimized interactions
-- Adaptive layouts for all screen sizes
-
-**Interactive Elements**
-- Real-time countdown timer with automatic updates
-- Dynamic content switching (SMP/SMA toggle system)
-- Floating social media widget with smooth animations
-- Progressive form validation
-
-**Performance Optimizations**
-- Lazy loading for background images
-- Intersection Observer API for animations
-- Passive event listeners
-- Optimized asset delivery
+| Lomba | Tingkat | Pendaftaran |
+|-------|---------|-------------|
+| **Ratoh Jaroe** | SMP & SMA | Dibuka |
+| **Hadroh Banjari** | Semua Tingkat | Dibuka |
+| **Scout Skill Competition** | SMP & SMA | Dibuka |
 
 ---
 
-## Design Philosophy
+## Tinjauan Teknis
 
-### Color Psychology
+### Arsitektur
+```
+Aplikasi Frontend Murni
+├── HTML5 Murni (Markup semantik)
+├── CSS3 Modern (Grid, Flexbox, Custom Properties)
+└── JavaScript Vanilla (ES6+, Tanpa framework)
+```
+
+### Fitur Utama
+
+**Sistem Desain Responsif**
+- Pendekatan mobile-first dengan 4 breakpoint
+- Interaksi yang dioptimalkan untuk sentuhan
+- Layout adaptif untuk semua ukuran layar
+
+**Elemen Interaktif**
+- Timer hitung mundur real-time dengan pembaruan otomatis
+- Sistem pergantian konten dinamis (toggle SMP/SMA)
+- Widget media sosial mengambang dengan animasi halus
+- Validasi form progresif
+
+**Optimasi Performa**
+- Lazy loading untuk gambar latar belakang
+- Intersection Observer API untuk animasi
+- Event listener pasif
+- Pengiriman aset yang dioptimalkan
+
+---
+
+## Filosofi Desain
+
+### Psikologi Warna
 ```css
-Primary Colors:
---purple: #aa00f9    /* Creativity, spirituality, wisdom */
---orange: #efb200    /* Warmth, enthusiasm, optimism */
+Warna Primer:
+--purple: #aa00f9    /* Kreativitas, spiritualitas, kebijaksanaan */
+--orange: #efb200    /* Kehangatan, antusiasme, optimisme */
 
-Supporting Colors:
+Warna Pendukung:
 --light-gray: #efefef
 --dark-gray: #262626
 ```
 
-### Cultural Elements
-- **Batik Parang Motifs**: Traditional Indonesian patterns symbolizing perseverance
-- **Garuda Elements**: Representing strength and national identity
-- **Lightning/Thunder**: Symbolizing energy and transformation
-- **Leaf Patterns**: Representing interconnectedness and growth
+### Elemen Budaya
+- **Motif Batik Parang**: Pola tradisional Indonesia yang melambangkan ketekunan
+- **Elemen Garuda**: Melambangkan kekuatan dan identitas nasional
+- **Petir/Guntur**: Melambangkan energi dan transformasi
+- **Pola Daun**: Melambangkan keterkaitan dan pertumbuhan
 
 ---
 
-## File Structure
+## Struktur File
 
 ```
 affesta-website/
 │
-├── index.html                 # Main application entry point
+├── index.html                 # Entry point aplikasi utama
 ├── style/
-│   ├── style.css             # Complete styling system
-│   └── img/                  # Optimized image assets
-│       ├── logo/             # Brand identity files
-│       ├── background/       # Section backgrounds
-│       └── icon/            # Competition category icons
+│   ├── style.css             # Sistem styling lengkap
+│   └── img/                  # Aset gambar yang dioptimalkan
+│       ├── logo/             # File identitas brand
+│       ├── background/       # Latar belakang section
+│       └── icon/            # Ikon kategori lomba
 │
 └── script/
-    └── index.js              # Application logic & interactions
+    └── index.js              # Logika aplikasi & interaksi
 ```
 
 ---
 
-## Browser Compatibility
+## Kompatibilitas Browser
 
-| Feature | Support |
-|---------|---------|
+| Fitur | Dukungan |
+|-------|----------|
 | **CSS Grid** | Chrome 57+, Firefox 52+, Safari 10.1+ |
 | **CSS Custom Properties** | Chrome 49+, Firefox 31+, Safari 9.1+ |
 | **Intersection Observer** | Chrome 51+, Firefox 55+, Safari 12.1+ |
-| **ES6 Features** | Chrome 51+, Firefox 54+, Safari 10+ |
+| **Fitur ES6** | Chrome 51+, Firefox 54+, Safari 10+ |
 
 ---
 
-## Performance Metrics
+## Metrik Performa
 
 - **First Contentful Paint**: < 1.5s
 - **Largest Contentful Paint**: < 2.5s
 - **Cumulative Layout Shift**: < 0.1
-- **JavaScript Bundle**: ~15KB (unminified)
-- **CSS Bundle**: ~25KB (unminified)
+- **Bundle JavaScript**: ~15KB (tidak diminifikasi)
+- **Bundle CSS**: ~25KB (tidak diminifikasi)
 
 ---
 
-## Accessibility Standards
+## Standar Aksesibilitas
 
-### WCAG 2.1 Compliance
-- **Color Contrast**: AAA rating (7:1 minimum)
-- **Touch Targets**: 44px minimum size
-- **Keyboard Navigation**: Full support with focus management
-- **Screen Reader**: Semantic HTML with ARIA labels
-- **Motion Preferences**: Respects `prefers-reduced-motion`
+### Kepatuhan WCAG 2.1
+- **Kontras Warna**: Rating AAA (minimum 7:1)
+- **Target Sentuhan**: Ukuran minimum 44px
+- **Navigasi Keyboard**: Dukungan penuh dengan manajemen fokus
+- **Screen Reader**: HTML semantik dengan label ARIA
+- **Preferensi Gerakan**: Menghormati `prefers-reduced-motion`
 
-### Responsive Breakpoints
+### Breakpoint Responsif
 ```css
-Mobile Small:   320px - 374px
-Mobile Medium:  375px - 424px  
-Mobile Large:   425px - 767px
-Tablet+:        768px and up
+Mobile Kecil:   320px - 374px
+Mobile Sedang:  375px - 424px  
+Mobile Besar:   425px - 767px
+Tablet+:        768px ke atas
 ```
 
 ---
 
-## Installation & Setup
+## Instalasi & Setup
 
-### Quick Start
+### Mulai Cepat
 ```bash
-# Clone the repository
+# Clone repository
 git clone https://github.com/yourusername/affesta-website.git
 
-# Navigate to project directory
+# Navigasi ke direktori proyek
 cd affesta-website
 
-# Open in browser (no build process required)
+# Buka di browser (tidak perlu proses build)
 open index.html
 ```
 
-### Development Server (Optional)
+### Server Development (Opsional)
 ```bash
-# Using Python 3
+# Menggunakan Python 3
 python -m http.server 8000
 
-# Using Node.js
+# Menggunakan Node.js
 npx serve .
 
-# Access at http://localhost:8000
+# Akses di http://localhost:8000
 ```
 
 ---
 
-## JavaScript Architecture
+## Arsitektur JavaScript
 
-### Core Modules
+### Modul Inti
 
-**Countdown System**
+**Sistem Countdown**
 ```javascript
-// Automatic updates every second
+// Update otomatis setiap detik
 const targetDate = new Date("2025-09-26T08:00:00+07:00");
 function updateCountdown() {
-  // Real-time calculation and DOM updates
+  // Kalkulasi real-time dan update DOM
 }
 ```
 
-**Navigation Controller**
+**Controller Navigasi**
 ```javascript
-// Scroll-based navbar transformations
-// Mobile menu management with touch gestures
-// Smooth scrolling with offset calculations
+// Transformasi navbar berbasis scroll
+// Manajemen menu mobile dengan gesture sentuh
+// Smooth scrolling dengan kalkulasi offset
 ```
 
-**Content Management**
+**Manajemen Konten**
 ```javascript
-// Dynamic toggle system for competition levels
-// Real-time URL and content switching
-// Animation state management
+// Sistem toggle dinamis untuk tingkat lomba
+// Pergantian URL dan konten real-time
+// Manajemen state animasi
 ```
 
 ---
 
-## CSS Features
+## Fitur CSS
 
-### Modern Layout Systems
+### Sistem Layout Modern
 ```css
-/* CSS Grid for responsive layouts */
+/* CSS Grid untuk layout responsif */
 .contact-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 30px;
 }
 
-/* Flexbox for component alignment */
+/* Flexbox untuk alignment komponen */
 .navbar-container {
   display: flex;
   justify-content: space-between;
@@ -232,16 +232,16 @@ function updateCountdown() {
 }
 ```
 
-### Advanced Visual Effects
+### Efek Visual Lanjutan
 ```css
-/* Glassmorphism design */
+/* Desain glassmorphism */
 .countdown-item {
   background: rgba(255, 255, 255, 0.2);
   backdrop-filter: blur(10px);
   border: 1px solid rgba(255, 255, 255, 0.3);
 }
 
-/* Gradient animations */
+/* Animasi gradient */
 .submit-btn {
   background: linear-gradient(135deg, var(--purple), var(--yellow));
   transition: all 0.3s ease;
@@ -250,85 +250,85 @@ function updateCountdown() {
 
 ---
 
-## Security Considerations
+## Pertimbangan Keamanan
 
-### Client-Side Protection
-- Input sanitization for form fields
-- XSS prevention measures
-- Content Security Policy headers (recommended)
-- Developer tools access prevention
+### Perlindungan Client-Side
+- Sanitasi input untuk field form
+- Langkah pencegahan XSS
+- Header Content Security Policy (direkomendasikan)
+- Pencegahan akses developer tools
 
-### Data Handling
-- No sensitive data stored in localStorage
-- Form validation before submission
-- Secure external link handling
-
----
-
-## Deployment Options
-
-### Static Hosting Platforms
-- **Netlify**: Drag & drop deployment
-- **Vercel**: Git-based deployment
-- **GitHub Pages**: Free hosting for repositories
-- **Firebase Hosting**: Google Cloud integration
-
-### Traditional Web Servers
-- Apache with mod_rewrite
-- Nginx with proper MIME types
-- Any PHP/Node.js hosting environment
+### Penanganan Data
+- Tidak ada data sensitif yang disimpan di localStorage
+- Validasi form sebelum pengiriman
+- Penanganan link eksternal yang aman
 
 ---
 
-## Future Enhancements
+## Opsi Deployment
 
-### Phase 2 Features
-- Backend integration for form processing
-- User registration and authentication system
+### Platform Hosting Statis
+- **Netlify**: Deployment drag & drop
+- **Vercel**: Deployment berbasis Git
+- **GitHub Pages**: Hosting gratis untuk repository
+- **Firebase Hosting**: Integrasi Google Cloud
+
+### Server Web Tradisional
+- Apache dengan mod_rewrite
+- Nginx dengan tipe MIME yang tepat
+- Lingkungan hosting PHP/Node.js apapun
+
+---
+
+## Pengembangan Masa Depan
+
+### Fitur Phase 2
+- Integrasi backend untuk pemrosesan form
+- Sistem registrasi dan autentikasi pengguna
 - Content Management System (CMS)
-- Multi-language support (Indonesian/English)
+- Dukungan multi-bahasa (Indonesia/Inggris)
 
-### Phase 3 Features
-- Progressive Web App (PWA) capabilities
-- Push notifications for event updates
-- Real-time participant leaderboards
-- Mobile app development
-
----
-
-## Contributing
-
-### Development Guidelines
-1. Maintain semantic HTML structure
-2. Follow BEM methodology for CSS classes
-3. Use ES6+ features consistently
-4. Ensure accessibility compliance
-5. Test on multiple devices and browsers
-
-### Code Standards
-- Use 2-space indentation
-- Comment complex functionality
-- Optimize images before adding
-- Validate HTML/CSS before committing
+### Fitur Phase 3
+- Kemampuan Progressive Web App (PWA)
+- Push notification untuk update acara
+- Leaderboard peserta real-time
+- Pengembangan aplikasi mobile
 
 ---
 
-## License & Copyright
+## Kontribusi
+
+### Panduan Development
+1. Pertahankan struktur HTML semantik
+2. Ikuti metodologi BEM untuk kelas CSS
+3. Gunakan fitur ES6+ secara konsisten
+4. Pastikan kepatuhan aksesibilitas
+5. Test di berbagai perangkat dan browser
+
+### Standar Code
+- Gunakan indentasi 2 spasi
+- Komentar untuk fungsionalitas kompleks
+- Optimasi gambar sebelum menambahkan
+- Validasi HTML/CSS sebelum commit
+
+---
+
+## Lisensi & Copyright
 
 ```
 © 2025 gigimerah
-All rights reserved.
+Seluruh hak cipta dilindungi.
 
-This website is developed for AFFESTA VOL. 1
-Organized by Ikatan Pelajar Madrasah Al Falah (IPMA)
+Website ini dikembangkan untuk AFFESTA VOL. 1
+Diselenggarakan oleh Ikatan Pelajar Madrasah Al Falah (IPMA)
 ```
 
 ---
 
-## Contact Information
+## Informasi Kontak
 
-For technical support or website-related inquiries, please contact the respective competition coordinators listed on the official website.
+Untuk dukungan teknis atau pertanyaan terkait website, silakan hubungi koordinator lomba masing-masing yang tercantum di website resmi.
 
-**Website Developer**: gigimerah  
-**Event Organizer**: IPMA Komisariat Aliyah  
-**Event Date**: September 26, 2025
+**Developer Website**: gigimerah  
+**Penyelenggara Acara**: IPMA Komisariat Aliyah  
+**Tanggal Acara**: 26 September 2025
